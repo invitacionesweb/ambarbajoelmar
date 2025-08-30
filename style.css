@@ -291,6 +291,59 @@ main p {
     
     
 }
+
+.DRESSCODE {
+    text-align: center;
+    background-color: var(--color-secundario);
+    color: var(--color-principal);
+    margin: 0;
+    padding: 20PX 0;
+}
+.DRESSCODE, H2, P {
+    margin: 0;
+}
+.DRESSCODE ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+
+    padding: 10px 0 0 0;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.DRESSCODE ul li {
+    
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    border-radius: 50%;
+}
+.DRESSCODE .li1 {
+    background-color: #F4CFDC;
+
+}
+.DRESSCODE .li2 {
+    background-color: #E6E1FE;
+
+}
+.DRESSCODE .li3 {
+    background-color: #9CE7D6;
+
+}
+.DRESSCODE .li4 {
+    background-color: #9AC8FA;
+
+}
+.DRESSCODE .li5 {
+    background-color: #DFC4A6;
+
+}
+.DRESSCODE .li6 {
+    background-color: #FFFFFF;
+}
 .segundo img {
     width: 89px;
 }
